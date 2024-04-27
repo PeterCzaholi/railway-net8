@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/RailwayNet8/.vs
+/RailwayNet8/obj
+/RailwayNet8/bin/Debug/net8.0

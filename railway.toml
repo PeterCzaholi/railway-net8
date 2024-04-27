@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./RailwayNet8/Dockerfile"
+
+[deploy]
+startCommand = "dotnet RailwayNet8.dll"
+restartPolicyType = "never"
