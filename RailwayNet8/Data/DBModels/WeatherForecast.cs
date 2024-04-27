@@ -1,7 +1,9 @@
-namespace RailwayNet8
+namespace RailwayNet8.Data.DBModels
 {
     public class WeatherForecast
     {
+        public Guid Id { get; set; }
+
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }
