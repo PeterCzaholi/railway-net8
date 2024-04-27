@@ -6,7 +6,7 @@ public static class ConnectionHelper
 {
     public static string GetConnectionString(IConfiguration configuration)
     {
-        var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL") ?? "postgresql://postgres:zTnFIVMNNcShnOQVJETtETcjcXJFkHIz@roundhouse.proxy.rlwy.net:51299/railway";
+        var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL") ?? "";
 
         return BuildConnectionString(databaseUrl);
     }
